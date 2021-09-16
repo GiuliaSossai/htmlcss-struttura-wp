@@ -16,15 +16,14 @@ body {
 
 .container {
   width: 80%;
-  min-height: 800px;
   margin: 20px auto;
   background-color: white;
 }
 
 /************* HEADER ***************/
 
-header {
-  height: 500px;
+.top, .jumbotron {
+  margin-bottom: 20px;
 }
 
 .top {
@@ -34,14 +33,13 @@ header {
 
 .jumbotron {
   height: 360px;
-  margin: 20px 0;
   background-color: lightgreen;
 }
 
 /************* MAIN ***************/
 
 main {
-  height: 800px;
+  
   background-color: blue;
 }
 
@@ -56,7 +54,7 @@ main .title {
 
 main .nav, main .widget, main .content {
   height: 600px;
-  background-color: yellow;
+  background-color: cornflowerblue;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -76,5 +74,5 @@ main .content {
 footer {
   height: 50px;
   background-color: lightskyblue;
-  margin-top: 20px;
+  margin-top: 10px;
 }
