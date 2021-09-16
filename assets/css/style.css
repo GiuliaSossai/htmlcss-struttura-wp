@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 223, 227);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  min-height: 800px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/************* HEADER ***************/
+
+header {
+  height: 500px;
+}
+
+.top {
+  height: 150px;
+  background-color: lightgray;
+}
+
+.jumbotron {
+  height: 360px;
+  margin: 20px 0;
+  background-color: lightgreen;
+}
+
+/************* MAIN ***************/
+
+main {
+  height: 800px;
+  background-color: blue;
+}
+
+main .title {
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.nav, .content, .widget {
+  float: left;
+}
+
+main .nav, main .widget, main .content {
+  height: 600px;
+  background-color: yellow;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .nav, main .widget {
+  width: 20%;
+}
+
+main .content {
+  width: 56%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/************* FOOTER ***************/
+
+footer {
+  height: 50px;
+  background-color: lightskyblue;
+  margin-top: 20px;
+}
