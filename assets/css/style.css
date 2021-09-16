@@ -26,12 +26,12 @@ body {
   margin-bottom: 20px;
 }
 
-.top {
+header .top {
   height: 150px;
   background-color: lightgray;
 }
 
-.jumbotron {
+header .jumbotron {
   height: 360px;
   background-color: lightgreen;
 }
@@ -55,11 +55,11 @@ main .title {
 main .nav, main .widget, main .content {
   height: 600px;
   background-color: cornflowerblue;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-main .nav, main .widget {
+main aside {
   width: 20%;
 }
 
