@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(252, 223, 227);
-}
-
 .clearfix::after {
   content: "";
   display: table;
@@ -16,7 +12,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 20px auto;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -27,7 +23,7 @@ body {
 }
 
 header .top {
-  height: 150px;
+  height: 100px;
   background-color: lightgray;
 }
 
@@ -38,8 +34,7 @@ header .jumbotron {
 
 /************* MAIN ***************/
 
-main {
-  
+main .content {
   background-color: blue;
 }
 
@@ -48,22 +43,19 @@ main .title {
   background-color: cornflowerblue;
 }
 
-.nav, .content, .widget {
+.left-col, .middle-col, .right-col {
   float: left;
-}
-
-main .nav, main .widget, main .content {
-  height: 600px;
+  min-height: 800px;
   background-color: cornflowerblue;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-main aside {
+.left-col, .right-col {
   width: 20%;
 }
 
-main .content {
+.middle-col {
   width: 56%;
   margin-left: 2%;
   margin-right: 2%;
@@ -71,7 +63,7 @@ main .content {
 
 /************* FOOTER ***************/
 
-footer {
+.footer-content {
   height: 50px;
   background-color: lightskyblue;
   margin-top: 10px;
